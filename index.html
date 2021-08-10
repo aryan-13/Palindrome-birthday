@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="/style.css" />
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="container" id="intro-box">
+				<!-- item-1 -->
+				<div class="box">
+					<h1 >Know if your birthday is palindrome</h1>
+				<!-- item-2 -->
+				<p >
+					This app checks your birthdate in 4 formats e.g. if your birthdate is
+					01 Aug 1995, then app will check for 19950801, 01081995, 080195,
+					1081995
+					<ul type="none">
+						<li>yyyy-mm-dd</li>
+						<li>dd-mm-yyyy</li>
+						<li>mm-dd-yy</li>
+						<li>m-dd-yyyy</li>
+					</ul>
+				</p>
+				</div>
+				
+				
+				<!-- item-3 -->
+				<div class="box">
+					<button style="margin-top:30px"class="btn" id="startt">Start</button>
+				</div>
+			</div>
+			<div class="container " id="func-box">
+				<div class="box-1">
+					<div class="func">
+						<label class="func-items" for="birthdate"
+							>Enter your birthdate!</label
+						>
+						
+						
+					</div>
+				</div>
+				<div class=" box-2"><input type="date" class="func-items" id="birthdate" />
+					
+					<button style="margin-top:30px"class="btn btn-enter">Enter</button>
+				
+				</div>
+				<div class=" box-3 output func-items"></div>
+			</div>
+		</div>
+	</body>
+	<script src="/app.js"></script>
+</html>
