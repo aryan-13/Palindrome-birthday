@@ -69,6 +69,7 @@ input {
 	box-shadow: inset 5px 5px 10px #caa78d, inset -5px -5px 10px #fff1cb;
 	height: 150px;
 	width: 390px;
+	padding-top: 20px;
 }
 .box {
 	flex: 1;
